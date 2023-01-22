@@ -2,22 +2,23 @@
   <v-app>
     <MyNavBar/>
     <v-main>
-      <HelloWorld/>
+      <MyIndex/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/Views/HelloWorld';
 import MyNavBar from './components/templates/MyNavBar';
+import MyIndex from './components/views/MyIndex';
+
 
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
     MyNavBar,
+    MyIndex,
   },
 
   data: () => ({
