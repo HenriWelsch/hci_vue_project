@@ -20,11 +20,24 @@
   
         <v-card>
           <v-card-title class="text-h5 grey lighten-2">
-            Bus 42 10:15 11:15
+            Bus 83 | 08:00 - 09:11
           </v-card-title>
   
           <v-card-text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <v-btn small width="10%">2x</v-btn>
+            <v-btn small width="45%">3,1€ Normal</v-btn>
+            <v-btn small width="10%">+</v-btn>
+            <v-btn small width="10%">-</v-btn>
+
+            <v-btn small width="10%">2x</v-btn>
+            <v-btn small width="45%">3,1€ Normal</v-btn>
+            <v-btn small width="10%">+</v-btn>
+            <v-btn small width="10%">-</v-btn>
+
+            <v-btn small width="10%">2x</v-btn>
+            <v-btn small width="45%">3,1€ Normal</v-btn>
+            <v-btn small width="10%">+</v-btn>
+            <v-btn small width="10%">-</v-btn>
           </v-card-text>
   
           <v-divider></v-divider>
@@ -47,11 +60,24 @@
   
         <v-card>
           <v-card-title class="text-h5 grey lighten-2">
-            Privacy Policy
+            Bus 42 | 10:15 - 11:15
           </v-card-title>
   
           <v-card-text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <v-btn small width="10%">2x</v-btn>
+            <v-btn small width="45%">3,1€ Normal</v-btn>
+            <v-btn small width="10%">+</v-btn>
+            <v-btn small width="10%">-</v-btn>
+
+            <v-btn small width="10%">2x</v-btn>
+            <v-btn small width="45%">3,1€ Normal</v-btn>
+            <v-btn small width="10%">+</v-btn>
+            <v-btn small width="10%">-</v-btn>
+
+            <v-btn small width="10%">2x</v-btn>
+            <v-btn small width="45%">3,1€ Normal</v-btn>
+            <v-btn small width="10%">+</v-btn>
+            <v-btn small width="10%">-</v-btn>
           </v-card-text>
   
           <v-divider></v-divider>
