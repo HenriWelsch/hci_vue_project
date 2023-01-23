@@ -1,14 +1,7 @@
 <template>
-      <v-dialog
-        v-model="dialog"
-        width="500"
-      >
+      <v-dialog width="500" class="p-4 m-4">
         <template v-slot:activator="{ on, attrs }">
-          <v-btn
-            block
-            v-bind="attrs"
-            v-on="on"
-          >
+          <v-btn block v-bind="attrs" v-on="on">
             Von hier nach da
           </v-btn>
         </template>
@@ -26,11 +19,7 @@
   
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn
-              color="primary"
-              text
-              @click="dialog = false"
-            >
+            <v-btn color="primary" text>
               I accept
             </v-btn>
           </v-card-actions>
