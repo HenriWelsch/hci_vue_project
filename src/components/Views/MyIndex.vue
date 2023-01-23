@@ -44,9 +44,7 @@
   
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary" text>
-              I accept
-            </v-btn>
+            <v-btn color="primary" block>Schließen</v-btn>
           </v-card-actions>
         </v-card>
         </v-dialog>
@@ -84,9 +82,7 @@
   
           <v-card-actions>
             <v-spacer></v-spacer>
-            <v-btn color="primary" text>
-              I accept
-            </v-btn>
+             <v-btn color="primary" block>Schließen</v-btn>
           </v-card-actions>
         </v-card>
         </v-dialog>
@@ -94,3 +90,22 @@
         
     </v-container>
 </template>
+
+<!-- 
+<template>
+    <v-container>
+        <v-text-field class="m-0 p-0" hide-details label="Auftragsübersicht" placeholder="Auftragsübersicht" outlined></v-text-field>
+        <br>
+        <v-btn small width="10%" height="60px">2x</v-btn>
+        <v-btn small width="54%" height="60px">Bus 83 | 08:16 - 09:11<br>Trier Süd - Trier West <br>3,1 € Normal</v-btn>
+        <v-btn small width="10%" height="60px">+</v-btn>
+        <v-btn small width="10%" height="60px">-</v-btn>
+
+        <v-btn small width="10%" height="60px">2x</v-btn>
+        <v-btn small width="54%" height="60px">Bus 83 | 08:16 - 09:11<br>Trier Süd - Trier West <br>3,1 € Normal</v-btn>
+        <v-btn small width="10%" height="60px">+</v-btn>
+        <v-btn small width="10%" height="60px">-</v-btn>
+        
+
+    </v-container>
+</template> -->
