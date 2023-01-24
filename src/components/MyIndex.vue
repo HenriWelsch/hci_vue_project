@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <v-container>
 
         <v-text-field class="m-0 p-0" hide-details label="Abfahrt" placeholder="Abfahrt" outlined></v-text-field>
@@ -24,7 +24,7 @@
           </v-card-title>
   
           <v-card-text>
-            <v-btn small width="10%">2x</v-btn>
+            <v-btn small width="10%">{{counter}}x</v-btn>
             <v-btn small width="45%">3,1€ Normal</v-btn>
             <v-btn small width="10%">+</v-btn>
             <v-btn small width="10%">-</v-btn>
@@ -89,7 +89,7 @@
 
         
     </v-container>
-</template>
+</template> -->
 
 <!-- 
 <template>
