@@ -10,7 +10,7 @@
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          src="@/assets/db_logo.svg"
           transition="scale-transition"
           width="40"
         />
@@ -18,7 +18,7 @@
         <v-img
           alt="Vuetify Name"
           class="shrink mt-1 hidden-sm-and-down"
-          contain
+          contain 
           min-width="100"
           src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
           width="100"
@@ -33,7 +33,14 @@
         text
       >
         <span class="mr-2">Sprache</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <v-img
+          alt="Vuetify Logo"
+          class="shrink"
+          contain
+          src="@/assets/dl_flagge.png"
+          transition="scale-transition"
+          width="40"
+        />
       </v-btn>
     </v-app-bar>
 </template>
